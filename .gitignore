@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Django
+db.sqlite3
+.env
+*.env
+local_settings.py
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Node (Tailwind)
+theme/static_src/node_modules/
+theme/static_src/package-lock.json
+
+# Compiled static assets
+theme/static/
+theme/static/css/
+theme/static/js/
